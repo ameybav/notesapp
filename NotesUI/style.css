@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.notes__sidebar{
+    width: 400px;
+    height: 100vh;
+    border-right: 2px solid red;
+    padding: 50px;
+}
+
+.notes__sidebar input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.notes__sidebar textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 100%;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.notes__sidebar button{
+    margin-bottom: 10px;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.notes__container{
+    width: 100%;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note{
+    background-color: #EEE;
+    padding: 20px;
+    width: 30%;
+    max-height: 300px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.note h3 {
+    margin-bottom: 10px;
+    
+}
+.note p{
+    max-height: 200px;
+    overflow: auto;
+    margin-bottom: 10px;
+    font-size: 13px;    
+
+}
+
+.btn-delete{
+    background-color: red !important;
+}
+.hidden {
+    display: none;
+}
