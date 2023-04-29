@@ -1,1 +1,1 @@
-# notesapp
+# c# notes app to demonstrate interaction of WebAPIs with Javascript
